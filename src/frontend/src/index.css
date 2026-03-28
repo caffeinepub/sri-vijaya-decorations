@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* Warm off-white/cream #F7F2EA → oklch(0.965 0.012 80) */
+    --background: 0.965 0.012 80;
+    /* Near-black #2A2A2A → oklch(0.22 0 0) */
+    --foreground: 0.22 0 0;
+
+    /* Card: white */
+    --card: 1 0 0;
+    --card-foreground: 0.22 0 0;
+
+    --popover: 1 0 0;
+    --popover-foreground: 0.22 0 0;
+
+    /* Primary: deep navy #1F3551 → oklch(0.32 0.072 238) */
+    --primary: 0.32 0.072 238;
+    --primary-foreground: 0.97 0.008 80;
+
+    /* Secondary: blush/peach #F3E2D7 → oklch(0.92 0.032 50) */
+    --secondary: 0.92 0.032 50;
+    --secondary-foreground: 0.22 0 0;
+
+    --muted: 0.94 0.018 60;
+    --muted-foreground: 0.48 0.02 60;
+
+    /* Accent: dusty rose #C9A097 → oklch(0.72 0.06 30) */
+    --accent: 0.72 0.06 30;
+    --accent-foreground: 0.22 0 0;
+
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+
+    --border: 0.88 0.02 60;
+    --input: 0.88 0.02 60;
+    --ring: 0.72 0.06 30;
+
+    --chart-1: 0.72 0.06 30;
+    --chart-2: 0.32 0.072 238;
+    --chart-3: 0.6 0.118 184;
+    --chart-4: 0.828 0.189 84;
+    --chart-5: 0.769 0.188 70;
+
+    --sidebar: 0.965 0.012 80;
+    --sidebar-foreground: 0.22 0 0;
+    --sidebar-primary: 0.32 0.072 238;
+    --sidebar-primary-foreground: 0.97 0.008 80;
+    --sidebar-accent: 0.92 0.032 50;
+    --sidebar-accent-foreground: 0.22 0 0;
+    --sidebar-border: 0.88 0.02 60;
+    --sidebar-ring: 0.72 0.06 30;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Playfair Display", serif;
+  }
+}
