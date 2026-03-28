@@ -586,7 +586,7 @@ export default function App() {
                   Contact the Proprietor
                 </p>
                 <p className="font-serif text-3xl font-bold text-navy mb-6 tracking-wide">
-                  +1 (555) 123-4567
+                  +91 9866629203
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Button
@@ -595,7 +595,7 @@ export default function App() {
                     data-ocid="customize.call.button"
                   >
                     <a
-                      href="tel:+9866629203"
+                      href="tel:+919866629203"
                       className="flex items-center justify-center gap-2"
                     >
                       <Phone className="w-4 h-4" />
@@ -608,7 +608,7 @@ export default function App() {
                     data-ocid="customize.whatsapp.button"
                   >
                     <a
-                      href="https://wa.me/9866629203"
+                      href="https://wa.me/919866629203"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
@@ -694,7 +694,7 @@ export default function App() {
                 Contact
               </h4>
               <p className="text-sm text-primary-foreground/70 mb-2">
-                +1 (555) 123-4567
+                +91 9866629203
               </p>
               <p className="text-sm text-primary-foreground/70 mb-4">
                 Mon – Sat, 9am – 6pm
@@ -705,7 +705,7 @@ export default function App() {
                 className="bg-rose text-white hover:bg-rose/80"
                 data-ocid="footer.contact.button"
               >
-                <a href="tel:+9866629203" className="flex items-center gap-2">
+                <a href="tel:+919866629203" className="flex items-center gap-2">
                   <Phone className="w-3 h-3" /> Call Us
                 </a>
               </Button>
